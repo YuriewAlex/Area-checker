@@ -1,0 +1,137 @@
+#canvas {
+position: absolute;
+top: auto;
+left: 65%;
+width: 500px;
+height: 500px;
+border: 1px solid;
+display: inline-block;
+background-color: lightgrey;
+}
+
+#form {
+position: absolute;
+display: inline-block;
+}
+
+#login_form{
+margin-left: auto;
+margin-right: auto;
+}
+#resultTable {
+margin: 0%;
+display: contents;
+float: right;
+}
+
+@media screen and (min-width: 1033px) {
+#form {
+margin: 0;
+
+}
+
+#resultTable {
+bottom: 300px;
+left: 600px;
+margin: 0;
+}
+}
+
+#form {
+position: relative;
+width: 700px;
+display: inline-block;
+}
+
+#form input {
+background: #14dc27;
+color: white;
+padding: 10px 20px;
+font-size: 14px;
+}
+
+#resultTable {
+width: 150px;
+font-size: 14px;
+border-collapse: collapse;
+text-align: center;
+margin: 0;
+padding: 0;
+}
+
+th, td:first-child {
+background: #14dc27;
+color: white;
+padding: 10px 20px;
+}
+
+th, td {
+border-style: solid;
+border-width: 0 1px 1px 0;
+border-color: white;
+}
+
+td {
+background: #D8E6F3;
+}
+
+th:first-child, td:first-child {
+text-align: left;
+}
+
+#but {
+bottom: 60px;
+text-align: center;
+padding: 1% 2%;
+margin: 2% 45%;
+left: 200px;
+font-size: 150%;
+cursor: pointer;
+color: #ffffff;
+background: #673AB7;
+border: 0 none;
+padding: 0.714rem 1rem;
+font-size: 1rem;
+transition: background-color 0.2s, border-color 0.2s, color 0.2s, box-shadow 0.2s, background-size 0.2s cubic-bezier(0.64, 0.09, 0.08, 1);
+border-radius: 4px;
+}
+
+#but:hover {
+background: #FFD7D5;
+}
+
+[class="p-paginator p-component p-paginator-bottom"] {
+background: none;
+position: relative;
+width: 500px;
+}
+.nums-field{
+margin: 3px;
+padding: 3px;
+}
+@media screen and (max-width: 741px){
+#canvas{
+position: relative;
+top: 0;
+left: 20px;
+width: 250px;
+height: 250px;
+}
+
+#but {
+bottom: 60px;
+text-align: center;
+padding: 1% 2%;
+margin: 2% 30%;
+left: 200px;
+font-size: 150%;
+cursor: pointer;
+color: #ffffff;
+background: #673AB7;
+border: 0 none;
+padding: 0.714rem 1rem;
+font-size: 1rem;
+transition: background-color 0.2s, border-color 0.2s, color 0.2s, box-shadow 0.2s, background-size 0.2s cubic-bezier(0.64, 0.09, 0.08, 1);
+border-radius: 4px;
+}
+}
